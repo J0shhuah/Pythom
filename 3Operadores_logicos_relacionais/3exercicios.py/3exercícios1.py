@@ -1,0 +1,11 @@
+print('\033[31m Nome:\033[mJoshua Rodrigues')
+print ('')
+print('~~ Atividade 3 ~~')
+print ('')
+x = input('Nome Completo:')
+y = int(input('Dia do Nascimento:'))
+r = int(input('Mês de Nascimento (forma númerica):'))
+f = int(input ('Ano de Nascimento:'))
+AnoAtual = int(2023)
+g = AnoAtual-f
+print(f'Sua idade é {g}')
